@@ -21,7 +21,7 @@ class Feed extends React.Component {
         };
 
         return (
-            <div>
+            <div className="tweets-contain">
                 {
                     this.state.tweets.map( tweet => {
                         return (
@@ -29,7 +29,9 @@ class Feed extends React.Component {
                                 profile={tweet.profile}
                                 profileUrl={profileName}
                                 username={tweet.username}
-                                content={tweet.content}/>
+                                content={tweet.content}
+                                interactions={tweet.interaction}/>
+                                
                         )
                     })
                 }

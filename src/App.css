@@ -23,6 +23,7 @@
   padding: 0em 1em;
   align-items: flex-start;
   width: 65%;
+  height: 100vh;
 }
 
 .t-row{
@@ -43,4 +44,13 @@
 .t-sidebar-col{
   border: 1px dashed #000;
   width: 35%;
+}
+
+.tweets-contain{
+  height: 100vh;
+  overflow: scroll;
+}
+.footer-column{
+  width: 33%;
+  height: 10px;
 }
