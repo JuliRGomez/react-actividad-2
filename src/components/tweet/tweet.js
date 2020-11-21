@@ -12,7 +12,7 @@ class Tweet extends React.Component {
                     <ContextMenu  remove={this.props.remove}
                                 index={this.props.index}/>:
                     null
-                }
+                } 
                 <div className="row">
                     <div className="c1">
                         <img src={this.props.profileUrl} alt="profile"/>

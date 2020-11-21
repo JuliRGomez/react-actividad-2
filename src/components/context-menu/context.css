@@ -1,16 +1,23 @@
-.contextual-dropdown{
+.contextual-dropdown-delete{
     position: absolute;
-    top: 25%;
-    right:-25%;
+    
+    justify-content: center;
+    top: 5px;
+    right:-12%;
+    width: 50%;
+   
+    
 }
 .contextual-dropdown__row{
+    border: solid 1px;
+    justify-content: center;
     background-color:white;
-    width: 50%;
+    width: 40%;
     border-radius: 5px;
     
 }
 .contextual-dropdown__row>svg{
-    width: 10%;
+    width: 30%;
     height: 10%;
     margin-right: 5px;
 }   

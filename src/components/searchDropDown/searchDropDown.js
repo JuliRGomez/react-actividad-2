@@ -7,7 +7,7 @@ export default class SearchDropDown extends React.Component{
 
 render(){
     return(     
-        <div className="contextual-dropdown">
+        <div className="contextual-dropdown-search">
             
                 {
                     profiles.filter((user)=>user.userName.toLocaleLowerCase().includes(this.props.userToSearch.toLowerCase())
