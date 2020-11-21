@@ -13,7 +13,7 @@ export default class Trend extends react.Component {
         return(
             <div>
                 <div>
-                    <input  className="search-bar" type="text" name="name" placeholder="Buscar en twitter" /> 
+                    <input  className="search-bar" type="text" name="name" placeholder="Buscar en twitter" onChange={this.props.handleInput}/> 
                 </div>
                 <div>
                     {

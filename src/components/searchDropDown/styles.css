@@ -1,0 +1,32 @@
+.contextual-dropdown{
+    position: absolute;
+    top: 3%;
+    right:0;
+    background-color:white;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.c1 {
+    flex-basis: 7%;
+    padding: 5px;
+}
+
+.c1>img{
+    border-radius: 50%;
+    display:inline-block;
+    width: 40%;
+}
+
+.c2{
+    padding: 0px 15px;
+}
+
+.card{
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: lightgray;
+    width: 100%;
+    margin-bottom: 5px;
+
+}

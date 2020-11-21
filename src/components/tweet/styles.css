@@ -10,11 +10,13 @@
     font-size: 0.8rem;
     border: solid 1px;
     opacity: 0.8  ;
+    position: relative;
 }
 
 .row {
     display: flex;
     align-items: center;    
+    justify-content: space-around;
 }
 
 .c1 {
@@ -36,7 +38,10 @@
     margin: 5px 0px;
     font-size: 1.2em;
 }
-
+.c3 {
+    height: 5%;
+    width: 5%;
+}
 .row>.content{
     font-weight: bold;
     font-size: 1.3em;
@@ -57,4 +62,8 @@
 .flex{
     display: flex;
     align-items: center;
+   
+}
+.c3:hover{
+    cursor: pointer;
 }
