@@ -11,7 +11,7 @@ const PostTweet = (props) => {
                 <form>
                     <input placeholder="¿Qué está pasando?" onChange={props.handleInput} />
                     <div className="t-post-options">
-                        <a href="./post" onClick={props.postTweet}>Twittear</a>
+                        <button onClick={props.postTweet}>Twittear</button>
                     </div>
                 </form>
                 

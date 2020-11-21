@@ -10,7 +10,8 @@ class PrimaryCol extends React.Component{
             newPost:{}
         }
     }
-    postTweet=()=>{
+    postTweet=(event)=>{
+        event.preventDefault();
         const message=this.state.newContent;
         this.setState({newPost: {
             profile: "Julian Rios",
