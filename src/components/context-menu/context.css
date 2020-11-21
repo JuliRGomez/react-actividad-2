@@ -3,8 +3,8 @@
     
     justify-content: center;
     top: 5px;
-    right:-12%;
-    width: 50%;
+    right:25%;
+    width: 25%;
    
     
 }
@@ -12,7 +12,7 @@
     border: solid 1px;
     justify-content: center;
     background-color:white;
-    width: 40%;
+    width: 100%;
     border-radius: 5px;
     
 }
